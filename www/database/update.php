@@ -2,12 +2,6 @@
 /* Include "configuration.php" file */
 require_once "configuration.php";
 
-
-
-
-
-
-
 try {
     /* Connect to the database */
 $dbConnection = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUsername, $dbPassword);
